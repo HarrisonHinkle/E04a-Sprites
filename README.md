@@ -1,12 +1,8 @@
 # E04a-Sprites
-This is an exercise to start playing with sprites and physics in Godot.
+This is a forked and modified repository made for an assignment in my Game Technology course at IU. 
 
-First, Fork and Clone this repository. Then open the Godot Project Manager and press Import. Navigate to the E04a-Sprites folder that GitHub Desktop created on your computer, and select the godot.project file. Press the Import & Edit button.
-
-You should now be seeing the 2D view of the project, with a large colorful rectangle around the viewport. There should also be a sprite of a man on the screen. If you run the project, he should fall to the bottom of the window and begin bouncing around.
-
-Your exercise is to add at least nine more physics object (with sprites as children) to the project:
-
+\nI used with the Godot application to modify Game.tscn in the scenes folder to fullfil the requirements. These were 
+ 
  - The example I provided is a type of 2D physics node called a RigidBody2D. This is a useful type of node for an object that will be moving through the world (according to basic laws of physics) without any internal locomotion.
  - Right-click on the Game node and select "Add Child Node". From the resulting list, select RigidBody2D, and rename it Falling 2
  - Select Falling 2 and in the toolbar, select the icon that looks like two intersecting squares (one hollow) with highlighted points in each corner. The tooltip for this icon is "Makes sure the object's children are not selectable"
@@ -23,7 +19,3 @@ Your exercise is to add at least nine more physics object (with sprites as child
  - Add a Sprite node (this time, use maleAdventurer_wide.png), resize it, and Create a CollisionPolygon2D Sibling.
  - Place Standing 1 someplace on the screen, so that one of your falling objects will bounce off it.
  - Repeat this process five more times, creating Standing 2, Standing 3, Standing 4, Standing 5, and Standing 6. Choose either the maleAdventurer_wide.png or female_wide.png Assets for the sprites. Place them at various locations on inside the color rectange.
- Run the scene and watch the objects bounce off each other and the walls.
- When you have finished, save the project, commit and push your changes to GitHub, and turn in the URL of your repository on Canvas.
- 
- 
