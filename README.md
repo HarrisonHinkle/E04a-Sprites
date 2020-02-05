@@ -1,7 +1,7 @@
 # E04a-Sprites
 This is a forked and modified repository made for an assignment in my Game Technology course at IU. 
 
-\nI used with the Godot application to modify Game.tscn in the scenes folder to fullfil the requirements. These were 
+I used with the Godot application to modify Game.tscn in the scenes folder to fullfil the requirements. These were: 
  
  - The example I provided is a type of 2D physics node called a RigidBody2D. This is a useful type of node for an object that will be moving through the world (according to basic laws of physics) without any internal locomotion.
  - Right-click on the Game node and select "Add Child Node". From the resulting list, select RigidBody2D, and rename it Falling 2
